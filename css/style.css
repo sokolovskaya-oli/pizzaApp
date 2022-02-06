@@ -54,11 +54,11 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-right: 20%;
+    margin-right: 10%;
 }
 .pizza_container{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     border: 5px solid #b86650;
     display: flex;
     border-radius: 50%;
@@ -70,7 +70,7 @@ body{
     height: 100%;
     background-color: #b86650;
     position: absolute;
-    left: 250px;
+    left: 150px;
     border-radius: 4px;
 }
 .descriptions{
@@ -84,11 +84,10 @@ body{
     font-size: 18px;
     font-style: italic;
     font-weight: 600;
-
 }
 .preloader{
     position: fixed;
-    font-size: 40px;
+    font-size: 30px;
     left:60%;
     top:60%;
     width: 30%;
@@ -100,7 +99,4 @@ body{
 .done{ 
     opacity: 1;
     visibility: visible;
-}
-.footer{
-
 }
