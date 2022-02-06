@@ -3,12 +3,16 @@
     padding: 0;
 }
 body{
-    width: 100%;
+   height: 100%;
+   
+}
+.app{
+    width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-end;
     align-items: center;
-    background: center / contain no-repeat url("../images/bcgr.jpg");
+    background: center/cover no-repeat url("../images/bcgr.jpg");  
 }
 .loading_btn{
     height: 130px;
